@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Aileron-Thin";
+  src: url('../../assets/fonts/Aileron/Aileron-Thin.ttf') format("truetype");
+}
+
+/* footer { */
+  /* position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 7%; */
+  /* font-family: "Aileron-Thin", Verdana, Geneva, Tahoma, sans-serif; */
+/* } */
+
+a {
+  color: #d46d19;
+}
+
+

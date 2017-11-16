@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Aileron-Thin";
+  src: url('../../assets/fonts/Aileron/Aileron-Thin.ttf') format("truetype");
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
