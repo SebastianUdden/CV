@@ -3,14 +3,14 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "ng": "ng",    
-	"start": "concurrently \"ng serve\" \"start http://localhost:4200\"",
+    "ng": "ng",
+	  "start": "concurrently \"ng serve\" \"start http://localhost:4200\"",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-	"deploy": "ng build --prod --base-href /CV/",
-    "postdeploy": "ngh",
+	  "deploy": "ng build --prod --base-href /CV/",
+    "postdeploy": "concurrently \"ngh\" \"npm run open\"",
     "open": "start https://sebastianudden.github.io/CV"
   },
   "private": true,
